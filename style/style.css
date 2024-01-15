@@ -13,6 +13,16 @@ Developer Name : Shariar Arefin
 /************* Variable Diclaration ***************/
 :root{
     --primary-color:#FF5400;
+    --white-color:#fff;
+    --light-gray-in:rgba(19, 19, 24, 0.50);
+    --light-dark-gray:rgba(19, 19, 24, 0.70);
+    --Dark-black:#131318;
+
+
+    --font-64:4rem;
+    --font-40:3rem;
+    --font-20:1.3rem;
+    --font-16:1rem;
 }
 
 
@@ -25,17 +35,146 @@ Developer Name : Shariar Arefin
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
-
+.btn-primary{
+    padding: 14px 35px;
+    color: var(--white-color);
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--font-20);
+    font-weight: 800;
+    border: 0;
+}
 
 /************* Global Section***************/
 
 /************* Header Section***************/
 
-
+header{
+    width: 80%;
+    margin:0 auto;
+    padding:50px 0px;
+    background-color: var(--primary-color);
+}
 
 
 /************* Header Section***************/
 /************* Main Section***************/
+
+/**********Hero Section*************/
+.hero{
+    width: 80%;
+    margin:0 auto; 
+}
+.hero-container{
+    text-align: center;
+    background: url(../Images/banner.png),linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 106px 0px;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+
+ 
+}
+.hero-title{
+
+    color: var(--white-color);
+    font-size:var(--font-64) ;
+    font-weight: 800;
+}
+.hero-content{
+    color: var(--white-color);
+    font-size: var(--font-16);
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"],form select{
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left: 16px;
+    padding-right: 64px;
+    margin-right: 20px;
+    border:0;
+    border-radius: 8px;
+    color: var(--light-gray-in);
+    background: var(--white-color);
+    text-align: center;
+    font-size: var(--font-16);
+    font-weight: 400;
+}
+form>button>i{
+    padding-right: 5px;
+
+}
+form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    font-size: var(--font-16);
+    font-weight: 700;
+    padding: 14px 35px;
+    border-radius: 8px;
+    border: 0;
+
+}
+.hero-filter{
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+/**********Hero Section*************/
+/************* Popular Tour Section***************/
+.popular-tour{
+    width: 80%;
+    margin:0 auto;  
+    padding-top: 100px; 
+}
+.popular-tour-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:53px;
+}
+.popular-tour-img{
+    border-radius: 16px;
+}
+.popular-tour-title{
+    color:var(--Dark-black) ;
+    font-size:var(--font-40) ;
+    font-weight: 800;
+}
+.popular-tour-content{
+    color:var(--light-dark-gray) ;
+    font-size: var(--font-16);
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0; /* 162.5% */
+}
+ul{
+margin-left: 15px;
+}
+li{
+    color:var(--light-dark-gray) ;
+    font-size: var(--font-16);
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 16px 0px;
+}
+/************* Popular Tour Section***************/
+
 
 
 

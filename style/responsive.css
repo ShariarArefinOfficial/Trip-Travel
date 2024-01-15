@@ -25,7 +25,41 @@ Developer Name : Shariar Arefin
 /************* Tablet View Query***************/
 /************* Mobile View Query***************/
 
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
+    /**********Hero Section*************/
+
+    form{
+        flex-direction: column;
+    }
+    input[type="text"],form select{
+        display: block;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    .hero-content{
+        max-width: 70%;
+    }
+    /**********Hero Section*************/
+/************* Popular Tour Section***************/
+.popular-tour{
+    width: 90%;
+    padding-top: 24px; 
+}
+.popular-tour-container{
+    flex-direction: column;
+}
+.popular-tour-img{
+    max-width: 90%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+/************* Popular Tour Section***************/
+
+
+
+
+
+
 
 }
 
