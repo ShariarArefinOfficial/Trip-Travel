@@ -5,7 +5,20 @@ Developer Name : Shariar Arefin
 /************* Computer View Query***************/
 @media (min-width:993px) and (max-width: 1200px) { 
 
-   
+       /************* Popular Tour Section***************/
+       .popular-tour{
+        width: 90%;
+        padding-top: 24px; 
+    }
+    .popular-tour-container{
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        max-width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    /************* Popular Tour Section***************/
 }
 
 
@@ -15,11 +28,37 @@ Developer Name : Shariar Arefin
 
 
 @media (min-width:769px) and (max-width: 992px) { 
-
+    /************* Popular Tour Section***************/
+    .popular-tour{
+        width: 90%;
+        padding-top: 24px; 
+    }
+    .popular-tour-container{
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        max-width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    /************* Popular Tour Section***************/
     
 }
 @media (min-width: 601px) and (max-width: 768px){
-
+    /************* Popular Tour Section***************/
+    .popular-tour{
+        width: 90%;
+        padding-top: 24px; 
+    }
+    .popular-tour-container{
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        max-width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    /************* Popular Tour Section***************/
     
 }
 
