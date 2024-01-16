@@ -26,34 +26,121 @@ Developer Name : Shariar Arefin
 /************* Mobile View Query***************/
 
 @media screen and (max-width:600px){
-    /**********Hero Section*************/
 
-    form{
+        /**********Hero Section*************/
+
+        form{
+            flex-direction: column;
+        }
+        input[type="text"],form select{
+            display: block;
+            margin-bottom: 15px;
+            margin-right: 0px;
+        }
+        .hero-content{
+            max-width: 70%;
+        }
+        /**********Hero Section*************/
+    /************* Popular Tour Section***************/
+    .popular-tour{
+        width: 90%;
+        padding-top: 24px; 
+    }
+    .popular-tour-container{
         flex-direction: column;
     }
-    input[type="text"],form select{
+    .popular-tour-img{
+        max-width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    /************* Popular Tour Section***************/
+
+    .newsletter{
+        width: 80%;
+        margin:0 auto;  
+        padding: 110px 0px;
+    }
+    .newsletter-col-text{
+        padding:40px;
+        border-radius: 16px;
+        border: 1px solid var(--primary-color);}
+    .newsletter-title{
+        color: var(--Dark-black);
+        font-size: var(--font-24);
+        font-weight: 800;
+    }
+    .newsletter-content{
+        color: var(--gray-light);
+        font-size: var(--font-16);
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .newsletter-form>input{
+        color: rgba(19, 19, 24, 0.30);
+        font-size: var(--font-16);
+        font-weight: 400;
+        padding: 16px 20px;
         display: block;
+        border-radius: 8px;
+        background: var(--light-gray);
+        border: 0;
         margin-bottom: 15px;
-        margin-right: 0px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
     }
-    .hero-content{
-        max-width: 70%;
+    .news-btn{
+        width: 100%;
+        display: block;
     }
-    /**********Hero Section*************/
-/************* Popular Tour Section***************/
-.popular-tour{
-    width: 90%;
-    padding-top: 24px; 
-}
-.popular-tour-container{
-    flex-direction: column;
-}
-.popular-tour-img{
-    max-width: 90%;
-    object-fit: cover;
-    margin: 0 auto;
-}
-/************* Popular Tour Section***************/
+    
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .news-hr{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .newsletter-img{
+        width: 100%;
+    }
+    
+    /************* Newsletter Section***************/
+    
+
+
+
+
+
+    /************* Footer Section***************/
+    
+    .footer{
+        padding-top: 32px;
+    
+    }
+  
+    .footer-content{
+        max-width: 90%;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    }
+      
+    hr{
+        margin-top: 27px;
+    }
+    
+    .footer-reserve{
+        margin-top: 24px;
+        padding-bottom: 31px;
+    }
+    
+    
+    
+    
+    /************* Footer Section***************/
+
+
 
 
 
