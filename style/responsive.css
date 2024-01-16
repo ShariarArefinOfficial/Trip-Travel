@@ -4,14 +4,45 @@ Developer Name : Shariar Arefin
 *********************/
 /************* Computer View Query***************/
 
-
+@media (min-width:993px)and (max-width:1190px){
+    .newsletter-col-img-text{
+   
+       
+        top: 30%;
+        
+        
+    }
+}
 
 
 /************* Computer View Query***************/
 /************* Tablet View Query***************/
 
 
-@media (min-width:769px) and (max-width: 992px) {  
+@media (min-width:769px) and (max-width: 992px) { 
+    /************* extra Section***************/
+.travel-container{
+    flex-direction: column;
+}
+
+.travel-col{
+    padding: 30px;
+    width: 100%;
+ 
+    height: auto;
+   
+}
+.newsletter-container{
+    flex-direction: column;
+} 
+.newsletter-col-img-text{
+   
+    right: 0;
+    top: 55%;
+    display: block;
+    width: 70%;
+    
+}
     
 }
 @media (min-width: 601px) and (max-width: 768px){
@@ -34,7 +65,30 @@ Developer Name : Shariar Arefin
     }
     .newsletter-img{
         width: 100%;
-    }  
+    } 
+/************* extra Section***************/
+.travel-container{
+    flex-direction: column;
+}
+
+.travel-col{
+    padding: 30px;
+    width: 100%;
+ 
+    height: auto;
+   
+}
+    
+.newsletter-col-img-text{
+   
+    right: 0;
+    top: 55%;
+    display: block;
+    width: 70%;
+    
+}
+
+
     
 }
 
@@ -146,7 +200,28 @@ Developer Name : Shariar Arefin
     
     /************* Footer Section***************/
 
+/************* extra Section***************/
+.travel-container{
+    flex-direction: column;
+}
 
+.travel-col{
+    padding: 30px;
+    width: 100%;
+ 
+    height: auto;
+   
+}
+
+
+.newsletter-col-img-text{
+   
+    right: 0;
+    top: 45%;
+    display: block;
+    width: 70%;
+    transform: rotate(-19.62deg);
+}
 
 
 

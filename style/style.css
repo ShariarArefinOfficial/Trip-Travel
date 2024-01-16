@@ -620,6 +620,31 @@ margin-top:24px;
 .newsletter-img{
     width: 100%;
 }
+.newsletter-img-txt{
+    color: var(--white-color);
+    text-align: center;
+    font-size: var(--font-24);
+    font-weight: 400;
+}
+.newsletter-img-content{
+    color: var(--white-color);
+    text-align: center;
+    font-size: var(--font-32);
+    font-weight: 700;
+}
+.newsletter-col-img-text{
+    padding:20px;
+    border-radius: 16px;
+    background: var(--primary-color);
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 55%;
+    transform: rotate(-19.62deg);
+}
+.newsletter-col-img{
+    position: relative;
+}
 /************* Newsletter Section***************/
 
 
@@ -680,4 +705,58 @@ hr{
 
 
 /************* Footer Section***************/
+/************Extra Section***********/
+.travel-blog{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.travel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
 
+.travel-col{
+    padding: 48px;
+    background-color: var(--light-gray);
+    width: 50%;
+    display: block;
+    height: 550px;
+    border-radius: 16px;
+   
+}
+.travel-col>img{
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.travel-col>h3{
+    margin-top:20px;
+    font-size: var(--font-24);
+    color: var(--primary-color);
+    font-weight: 600;
+
+}
+.travel-col>p{
+    margin-top:16px;
+    font-size: var(--font-16);
+    color: var(--Dark-black);
+font-weight: 400;
+}
+.travel-col>a{
+    text-decoration: none;
+    margin-top:20px;
+    font-size: var(--font-16);
+    color: var(--primary-color);
+
+}
+.travel-blog-title{
+    color:var(--Dark-black) ;
+    font-size:var(--font-40) ;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 30px;
+}
