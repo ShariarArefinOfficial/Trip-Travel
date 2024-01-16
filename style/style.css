@@ -372,6 +372,13 @@ padding-bottom: 24px;
     justify-content: space-between;
     align-items: center;
 }
+.discount-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 48px;
+}
 /**************Discount Section**************/
 
 
