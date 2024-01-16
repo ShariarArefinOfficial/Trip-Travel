@@ -1,0 +1,60 @@
+/**********************
+Project Name:Trip Travel
+Developer Name : Shariar Arefin
+*********************/
+/************* Computer View Query***************/
+@media (min-width:993px) and (max-width: 1200px) { 
+
+}
+
+
+
+/************* Computer View Query***************/
+/************* Tablet View Query***************/
+
+
+@media (min-width:769px) and (max-width: 992px) { 
+
+    .choose-us{
+        padding-top: 50px;
+    }
+}
+@media (min-width: 601px) and (max-width: 768px){
+
+    .choose-us{
+        padding-top: 24px;
+    }
+ 
+}
+
+
+
+
+/************* Tablet View Query***************/
+/************* Mobile View Query***************/
+
+@media screen and (max-width:600px){
+    .choose-us{
+        padding-top: 24px;
+    }
+.choose-us-container{
+    flex-direction: column;
+    gap:0px;
+}
+.choose-us-container-1{
+    flex-direction: column;
+}
+.choose-us-col-2,.choose-us-col-1{
+    margin-top: 24px;
+}
+.choose-us-col-4,.choose-us-col-5{
+    display: none;
+}
+.choose-us-col-3 {
+    width: 84%;}
+
+}
+
+
+/************* Mobile View Query***************/
+

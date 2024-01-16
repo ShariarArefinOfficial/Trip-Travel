@@ -14,8 +14,27 @@ Developer Name : Shariar Arefin
 @media (min-width:769px) and (max-width: 992px) {  
     
 }
-@media (min-width: 577px) and (max-width: 768px){
-   
+@media (min-width: 601px) and (max-width: 768px){
+    .newsletter{
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+    }
+    .news-btn{
+        width: 100%;
+        display: block;
+    }
+    
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .news-hr{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .newsletter-img{
+        width: 100%;
+    }  
     
 }
 
@@ -44,9 +63,9 @@ Developer Name : Shariar Arefin
 
 
     .newsletter{
-        width: 80%;
-        margin:0 auto;  
-        padding: 110px 0px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
     }
     .newsletter-col-text{
         padding:40px;

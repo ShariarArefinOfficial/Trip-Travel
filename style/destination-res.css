@@ -18,7 +18,34 @@ Developer Name : Shariar Arefin
  
 }
 @media (min-width: 601px) and (max-width: 768px){
+    .destination{
+        padding-top: 50px;
+    }
+    .select-title{
+        font-size: var(--font-32);
+    }
+    .select-content{
+        font-size: var(--font-20);
+    max-width: 95%;
+    }
+    .destination-col-3{
+        grid-column: span 6;
 
+    
+    }.destination-col-4{
+        grid-column: span 6;  
+    }
+    .destination-col-5{
+        grid-column: span 4;
+
+    
+    }
+    .destination-col-6{
+        grid-column: span 8;  
+    }
+    .destination-col-7{
+        grid-column: span 12;  
+    }
  
 }
 
@@ -30,7 +57,50 @@ Developer Name : Shariar Arefin
 
 @media screen and (max-width:600px){
 
+    .destination-col-1{
+    
+        grid-column: span 12;
+   
+    }
+    .destination-col-2{
+        grid-column: span 12;
 
+    
+    }
+    .destination-col-3{
+        grid-column: span 12;
+
+    
+    }.destination-col-4{
+        grid-column: span 12;
+
+    
+    
+    }
+    .destination-col-5{
+        grid-column: span 12;
+
+    }
+    .destination-col-6{
+
+        grid-column: span 12;
+
+    }
+    .destination-col-7{
+       
+        grid-column: span 12;
+  
+    }
+    .destination{
+        padding-top: 24px;
+    }
+    .select-title{
+        font-size: var(--font-20);
+    }
+    .select-content{
+        font-size: var(--font-14);
+    max-width: 95%;
+    }
 
 
 }

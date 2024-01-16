@@ -1,0 +1,112 @@
+/**********************
+Project Name:Trip Travel
+Developer Name : Shariar Arefin
+*********************/
+/************* Computer View Query***************/
+@media (min-width:993px) and (max-width: 1200px) { 
+.date,
+.max-people,
+.place{
+    margin-right: 15px;
+}
+
+}
+
+
+
+/************* Computer View Query***************/
+/************* Tablet View Query***************/
+
+
+@media (min-width:769px) and (max-width: 992px) { 
+
+    .discount{
+        padding-top: 50px;
+    }
+    .discount-container-1{
+        flex-direction: column;
+    }
+    .discount-container-2{
+        flex-direction: column-reverse;
+    }
+.discount-col {
+        width: 100%;
+    }
+.discount-wrap {
+         
+        flex-wrap: wrap;
+        }
+.discount-wrap {
+         
+            display: block;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+}
+@media (min-width: 601px) and (max-width: 768px){
+
+    .discount{
+        padding-top: 24px;
+    }
+    .discount-container-1{
+        flex-direction: column;
+    }
+    .discount-container-2{
+        flex-direction: column;
+    }
+.discount-col {
+        width: 100%;
+    }
+.discount-wrap {
+         
+        flex-wrap: wrap;
+        }
+.discount-wrap {
+         
+            display: block;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+ 
+}
+
+
+
+
+/************* Tablet View Query***************/
+/************* Mobile View Query***************/
+
+@media screen and (max-width:600px){
+    .discount{
+        padding-top: 24px;
+    }
+    .discount-container-1{
+        flex-direction: column;
+    }
+    .discount-col {
+        width: 100%;
+    }
+    .discount-wrap {
+         
+            display: block;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+.discount-container-2{
+            flex-direction: column-reverse;
+        }
+.discount-col {
+            width: 100%;
+        }
+.discount-wrap {
+             
+            flex-wrap: wrap;
+            }
+
+
+
+}
+
+
+/************* Mobile View Query***************/
+
