@@ -41,20 +41,7 @@ Developer Name : Shariar Arefin
             max-width: 70%;
         }
         /**********Hero Section*************/
-    /************* Popular Tour Section***************/
-    .popular-tour{
-        width: 90%;
-        padding-top: 24px; 
-    }
-    .popular-tour-container{
-        flex-direction: column;
-    }
-    .popular-tour-img{
-        max-width: 90%;
-        object-fit: cover;
-        margin: 0 auto;
-    }
-    /************* Popular Tour Section***************/
+
 
     .newsletter{
         width: 80%;

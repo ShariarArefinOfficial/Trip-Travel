@@ -19,6 +19,7 @@ Developer Name : Shariar Arefin
     --light-dark-gray:rgba(19, 19, 24, 0.70);
     --Dark-black:#131318;
     --gray-light:#5A5A5D;
+    --header-nav:#424247;
 
 
     --font-64:4rem;
@@ -27,6 +28,7 @@ Developer Name : Shariar Arefin
     --font-24:1.5rem;
     --font-28:1.8rem;
     --font-20:1.3rem;
+    --font-18:1.125rem;
     --font-16:1rem;
 }
 
@@ -78,6 +80,12 @@ Developer Name : Shariar Arefin
     margin-left: 5px;
 }
 
+
+
+
+.none{
+    display:none;
+}
 /************* Global Section***************/
 
 /************* Header Section***************/
@@ -86,8 +94,42 @@ header{
     width: 80%;
     margin:0 auto;
     padding:50px 0px;
-    background-color: var(--primary-color);
 }
+.header-logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap:20px;
+}
+.header-container-1{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container-2{
+    display: none;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.header-container-1>ul,.header-container-2>ul{
+    display: flex;
+}
+.header-container-1>ul>li,.header-container-2>ul>li{
+    list-style: none;
+}
+.header-container-1>ul>li>a,.header-container-2>ul>li>a{
+    text-decoration: none;
+    color:  var(--header-nav);
+text-align: center;
+font-size: var(--font-18);
+font-weight: 400;
+margin-right:20px;
+}
+.header-container-1>ul>li>a:hover,.header-container-2>ul>li>a>i:hover{
+          color:var(--primary-color);
+}
+
+
+
 
 
 /************* Header Section***************/

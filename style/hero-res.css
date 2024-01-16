@@ -1,0 +1,130 @@
+/**********************
+Project Name:Trip Travel
+Developer Name : Shariar Arefin
+*********************/
+/************* Computer View Query***************/
+@media (min-width:993px) and (max-width: 1200px) { 
+    /**********Hero Section*************/
+
+   .hero-filter{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+   }
+   .hero-filter>form>input[type="text"],form select{
+    margin-right: 10px;
+   }
+   .hero-content{
+       max-width: 90%;
+   }
+   /**********Hero Section*************/ 
+   .header-container-1{
+   
+       display: none;
+   }
+   .header-container-2{
+       display: flex;
+       justify-content: space-between;
+       
+   }  
+   
+}
+
+
+
+/************* Computer View Query***************/
+/************* Tablet View Query***************/
+
+
+@media (min-width:769px) and (max-width: 992px) { 
+     /**********Hero Section*************/
+
+     form{
+        flex-direction: column;
+    }
+    .hero-filter>form>input[type="text"],form select{
+        display: block;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    .hero-content{
+        max-width: 70%;
+    }
+    /**********Hero Section*************/ 
+    .header-container-1{
+    
+        display: none;
+    }
+    .header-container-2{
+        display: flex;
+        justify-content: space-between;
+        
+    }  
+    
+}
+@media (min-width: 601px) and (max-width: 768px){
+         /**********Hero Section*************/
+
+         form{
+            flex-direction: column;
+        }
+        .hero-filter>form>input[type="text"],form select{
+            display: block;
+            margin-bottom: 15px;
+            margin-right: 0px;
+        }
+        .hero-content{
+            max-width: 70%;
+        }
+        /**********Hero Section*************/  
+        .header-container-1{
+    
+            display: none;
+        }
+        .header-container-2{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    
+}
+
+
+
+
+/************* Tablet View Query***************/
+/************* Mobile View Query***************/
+
+@media screen and (max-width:600px){
+
+        /**********Hero Section*************/
+
+        form{
+            flex-direction: column;
+        }
+        input[type="text"],form select{
+            display: block;
+            margin-bottom: 15px;
+            margin-right: 0px;
+        }
+        .hero-content{
+            max-width: 70%;
+        }
+        /**********Hero Section*************/
+
+        .header-container-1{
+    
+            display: none;
+        }
+        .header-container-2{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+
+}
+
+
+/************* Mobile View Query***************/
+
