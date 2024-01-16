@@ -215,7 +215,103 @@ li{
 .destination-container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    gap:20px;
+    grid-auto-rows: 300px;  
+      gap:20px;
+}
+.place-name{
+    color: var(--white-color);
+text-align: center;
+font-size: var(--font-28);
+font-weight: 800;
+}
+.destination-col-1{
+    background: url('../Images/Rectangle\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 6;
+    border-radius: 16px;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+.destination-col-2{
+    background: url('../Images/Rectangle\ 8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 6;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.destination-col-3{
+    background: url('../Images/Rectangle\ 6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 3;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}.destination-col-4{
+    background: url('../Images/Rectangle\ 7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 6;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.destination-col-5{
+    background: url('../Images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 3;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.destination-col-6{
+    background: url('../Images/Rectangle\ 11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 4;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.destination-col-7{
+    background: url('../Images/Rectangle\ 10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-column: span 8;
+    border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
 }
 
 
@@ -381,6 +477,52 @@ padding-bottom: 24px;
 }
 /**************Discount Section**************/
 
+/************* Perfect Place Section***************/
+.perfect-place{
+    width: 80%;
+    margin:0 auto;  
+    padding-top: 100px; 
+}
+.perfect-place-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:53px;
+}
+.popular-tour-img{
+    border-radius: 16px;
+}
+.pefect-place-title{
+    color:var(--Dark-black) ;
+    font-size:var(--font-40) ;
+    font-weight: 800;
+}
+.perfect-place-content{
+    color:var(--light-dark-gray) ;
+    font-size: var(--font-16);
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0; /* 162.5% */
+}
+/* .perfect-place-container>ul{
+margin-left: 15px;
+margin-top:24px;
+} */
+.perfect-place-col{
+    display: block;
+    width: 50%;
+}
+.custom-video{
+    border-radius: 16px;
+}
+.list-item-place{
+    color:var(--Dark-black) ;
+    font-size: var(--font-16);
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    padding: 16px 0px;
+}
+/************* Perfect Place Section***************/
 
 /************* Newsletter Section***************/
 .newsletter{
