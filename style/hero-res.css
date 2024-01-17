@@ -121,6 +121,11 @@ Developer Name : Shariar Arefin
             justify-content: space-between;
             
         }
+        .hero-filter>form>input[type="text"],form select{
+            display: block;
+            margin-bottom: 15px;
+            margin-right: 0px;
+        }
 
 
 }

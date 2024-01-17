@@ -82,7 +82,8 @@ Developer Name : Shariar Arefin
 .newsletter-col-img-text{
    
     right: 0;
-    top: 55%;
+    /* top: 55%; */
+    top: 46%;
     display: block;
     width: 70%;
     
@@ -217,10 +218,14 @@ Developer Name : Shariar Arefin
 .newsletter-col-img-text{
    
     right: 0;
-    top: 45%;
+    top: 10%;
     display: block;
     width: 70%;
     transform: rotate(-19.62deg);
+}
+.travel-blog-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 

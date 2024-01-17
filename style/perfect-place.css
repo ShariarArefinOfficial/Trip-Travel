@@ -110,3 +110,23 @@ Developer Name : Shariar Arefin
 
 /************* Mobile View Query***************/
 
+@media (min-width:500px)and (max-width:600px){
+    .newsletter-col-img-text{
+   
+        right: 0;
+        top: 45%;
+        display: block;
+        width: 70%;
+        transform: rotate(-19.62deg);
+    }
+}
+@media (min-width:400px)and (max-width:500px){
+    .newsletter-col-img-text{
+   
+        right: 0;
+        top: 36%;
+        display: block;
+        width: 70%;
+        transform: rotate(-19.62deg);
+    }
+}
